@@ -1,0 +1,34 @@
+{
+  "short_name": "Authenticator",
+  "name": "Authenticator",
+  "version": "0.1.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
+      "16": "eosio16x16.png",
+      "24": "eosio24x24.png",
+      "48": "eosio48x48.png",
+      "128": "eosio128x128.png",
+      "400": "eos400x400.png"
+    },
+    "default_title": "Authenticator"
+  },
+  "icons": {
+    "16": "eosio16x16.png",
+    "24": "eosio24x24.png",
+    "48": "eosio48x48.png",
+    "128": "eosio128x128.png",
+    "400": "eos400x400.png"
+  },
+  "options_page": "index.html#options",
+  "permissions": ["storage", "tabs", "clipboardWrite"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }]
+}

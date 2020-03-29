@@ -1,0 +1,9 @@
+.add-auth-heading {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem; }
+
+.add-auth-input-container {
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 0rem 1.5rem; }

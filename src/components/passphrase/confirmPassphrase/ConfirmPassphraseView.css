@@ -1,0 +1,7 @@
+.confirm-passphrase {
+  padding: 0 1.5rem; }
+
+.confirm-passphrase-heading {
+  display: grid;
+  grid-gap: 1rem;
+  padding-bottom: 2.5rem; }

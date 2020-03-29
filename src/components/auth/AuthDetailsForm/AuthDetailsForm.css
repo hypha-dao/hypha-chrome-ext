@@ -1,0 +1,35 @@
+.edit-auth-form {
+  display: grid;
+  grid-row-gap: 0.5rem; }
+  .edit-auth-form .nickname-input-container {
+    position: relative; }
+    .edit-auth-form .nickname-input-container input {
+      padding-right: 4rem; }
+  .edit-auth-form .nickname-saved-hide, .edit-auth-form .nickname-saved-showing, .edit-auth-form .editing-ellipsis, .edit-auth-form .nickname-saved-editing {
+    position: absolute;
+    color: #607C9F;
+    right: .5rem;
+    bottom: 3rem; }
+  .edit-auth-form .nickname-saved-hide {
+    opacity: 0;
+    transition: opacity .7s linear; }
+  .edit-auth-form .nickname-saved-showing {
+    opacity: 1;
+    transition: opacity .3s linear; }
+  .edit-auth-form .editing-ellipsis {
+    bottom: 2.5rem;
+    width: 2rem; }
+  .edit-auth-form .nickname-saved-editing {
+    opacity: 0; }
+  .edit-auth-form .public-key-container {
+    position: relative; }
+    .edit-auth-form .public-key-container input {
+      padding-right: 6rem;
+      text-overflow: ellipsis;
+      overflow: hidden; }
+    .edit-auth-form .public-key-container button {
+      position: absolute;
+      width: auto;
+      bottom: 3rem;
+      right: 0rem;
+      padding: 0.75rem 2rem; }

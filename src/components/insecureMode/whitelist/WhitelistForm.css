@@ -1,0 +1,37 @@
+.whitelist-form {
+  position: relative;
+  padding-top: 2.5rem; }
+  .whitelist-form .whitelist-input-container {
+    display: flex; }
+    .whitelist-form .whitelist-input-container .whitelist-input {
+      flex: 8;
+      padding: .25rem 0; }
+    .whitelist-form .whitelist-input-container .whitelist-add-btn {
+      flex: 2;
+      padding: .25rem .75rem;
+      margin: 2rem 0 .25rem 1.5rem;
+      font-size: .9rem; }
+  .whitelist-form .url-list {
+    padding-top: 1.5rem;
+    color: #607C9F; }
+    .whitelist-form .url-list .whitelist-url-container {
+      display: flex;
+      justify-content: space-between;
+      margin: .75rem 0;
+      padding: 0.75rem;
+      border-radius: .25rem; }
+      .whitelist-form .url-list .whitelist-url-container:hover {
+        background: #F9FAFB; }
+        .whitelist-form .url-list .whitelist-url-container:hover .url {
+          flex: 9 1; }
+        .whitelist-form .url-list .whitelist-url-container:hover .whitelist-delete-btn {
+          display: inline;
+          flex: 1 1;
+          color: #1A3270;
+          background: none;
+          padding: 0;
+          font-weight: 700; }
+          .whitelist-form .url-list .whitelist-url-container:hover .whitelist-delete-btn:hover {
+            color: #FF6363; }
+      .whitelist-form .url-list .whitelist-url-container .whitelist-delete-btn {
+        display: none; }

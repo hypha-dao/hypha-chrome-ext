@@ -1,0 +1,12 @@
+.navbar-container {
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem; }
+  .navbar-container .navbar-content {
+    color: #607C9F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .navbar-container .navbar-content img {
+      cursor: pointer; }
+    .navbar-container .navbar-content .navbar-logo {
+      flex: 10;
+      cursor: default; }

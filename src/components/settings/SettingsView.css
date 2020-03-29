@@ -1,0 +1,29 @@
+.settings-container {
+  display: flex;
+  min-height: 100vh; }
+  .settings-container h1, .settings-container h2 {
+    padding-bottom: 1rem; }
+  .settings-container .settings-navigation-container {
+    flex: 0 1 30%;
+    padding: 3rem 4rem;
+    background: #F9FAFB; }
+    .settings-container .settings-navigation-container .settings-navigation-content {
+      float: right;
+      text-align: left; }
+      .settings-container .settings-navigation-container .settings-navigation-content ul {
+        padding: 0;
+        overflow: auto; }
+        .settings-container .settings-navigation-container .settings-navigation-content ul li {
+          list-style-type: none;
+          margin: 1rem 0; }
+          .settings-container .settings-navigation-container .settings-navigation-content ul li a {
+            font-weight: bold;
+            color: #1A3270;
+            text-decoration: none; }
+            .settings-container .settings-navigation-container .settings-navigation-content ul li a:not(.active) {
+              opacity: .6;
+              font-weight: normal; }
+  .settings-container .settings-content-container {
+    flex: 0 1 70%;
+    padding: 2rem 2.5rem;
+    max-width: 700px; }

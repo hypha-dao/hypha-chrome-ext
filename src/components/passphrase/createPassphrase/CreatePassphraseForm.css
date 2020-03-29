@@ -1,0 +1,24 @@
+.create-passphrase {
+  padding: 0 1.5rem; }
+  .create-passphrase .create-passphrase-heading {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 2.5rem 0; }
+    .create-passphrase .create-passphrase-heading em {
+      font-weight: bold;
+      font-style: normal;
+      color: #1A3270; }
+  .create-passphrase .create-passphrase-form-items {
+    display: grid;
+    grid-gap: 0.5rem; }
+    .create-passphrase .create-passphrase-form-items .passphrase-requirement {
+      display: flex;
+      align-items: center; }
+      .create-passphrase .create-passphrase-form-items .passphrase-requirement img {
+        position: absolute; }
+      .create-passphrase .create-passphrase-form-items .passphrase-requirement p {
+        display: inline;
+        padding-left: 1.25rem;
+        margin: .5rem; }
+    .create-passphrase .create-passphrase-form-items .create-passphrase-input {
+      padding-bottom: 1rem; }

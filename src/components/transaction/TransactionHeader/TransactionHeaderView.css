@@ -1,0 +1,20 @@
+.transaction-header {
+  background: #1A3270; }
+  .transaction-header .transaction-header-grid {
+    display: grid;
+    padding: 1.5rem;
+    justify-content: start;
+    grid-template-areas: "icon title title title" "icon root  root  root"; }
+    .transaction-header .transaction-header-grid .application-icon {
+      grid-area: icon;
+      height: 4.5rem;
+      margin-right: 1.5rem;
+      border-radius: 3px; }
+    .transaction-header .transaction-header-grid .application-title {
+      grid-area: title;
+      color: #FFFFFF; }
+    .transaction-header .transaction-header-grid .application-root {
+      grid-area: root;
+      color: #FFFFFF;
+      font-size: .9rem;
+      padding-top: .25rem; }

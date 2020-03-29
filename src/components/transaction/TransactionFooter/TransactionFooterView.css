@@ -1,0 +1,24 @@
+.transaction-footer {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+  background: #FFFFFF;
+  border-top: 2px solid #F0F2F8; }
+  .transaction-footer .transaction-signature {
+    padding: .5rem 0 1rem 0;
+    text-align: center;
+    color: #1A3270; }
+  .transaction-footer .transaction-actor {
+    font-weight: bold;
+    letter-spacing: 0.23px; }
+  .transaction-footer .chain-icon {
+    height: 1.5rem; }
+  .transaction-footer .chain-name {
+    font-weight: bold;
+    letter-spacing: 0.23px; }
+  .transaction-footer .response-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; }
+    .transaction-footer .response-status .loading-overlay .loading-img {
+      height: 3.5rem; }

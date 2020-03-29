@@ -1,0 +1,5 @@
+.accordion {
+  background: #FFFFFF;
+  overflow-y: auto;
+  flex-direction: column;
+  flex: 1; }

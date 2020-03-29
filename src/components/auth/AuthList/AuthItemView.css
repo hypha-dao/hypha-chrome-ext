@@ -1,0 +1,27 @@
+.auth-item-container {
+  padding: 0 1rem; }
+  .auth-item-container:not(:last-child) {
+    border-bottom: 1px solid #F0F2F8; }
+  .auth-item-container .auth-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    text-decoration: none;
+    padding: 1.75rem 0; }
+    .auth-item-container .auth-item .auth-icon {
+      justify-self: start;
+      margin-right: 1rem; }
+    .auth-item-container .auth-item .auth-name {
+      word-break: break-word; }
+    .auth-item-container .auth-item .auth-more-info {
+      justify-self: end;
+      margin-left: 1rem; }
+  .auth-item-container .auth-removed {
+    color: #607C9F;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem 0; }
+    .auth-item-container .auth-removed a {
+      color: #1A3270;
+      font-weight: bold;
+      cursor: pointer; }

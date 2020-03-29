@@ -1,0 +1,15 @@
+.contract {
+  color: #1A3270; }
+  .contract #transfer-terms-conditions {
+    font-size: 1.1rem;
+    margin-bottom: .5rem; }
+  .contract .variable {
+    display: inline;
+    font-weight: bold; }
+  .contract ol {
+    padding: 0 0 0 2rem;
+    margin: 0 0 1rem 0; }
+    .contract ol li {
+      padding-left: .5rem; }
+      .contract ol li:not(:last-child) {
+        margin-bottom: .5rem; }

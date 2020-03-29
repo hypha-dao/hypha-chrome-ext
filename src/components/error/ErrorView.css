@@ -1,0 +1,9 @@
+.error-container {
+  text-align: center;
+  padding: 2.5rem 3rem 3rem 3rem; }
+  .error-container img {
+    margin-bottom: 1.5rem; }
+  .error-container h1 {
+    margin-bottom: 1rem; }
+  .error-container p {
+    margin-bottom: 0.5rem; }

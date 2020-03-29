@@ -1,0 +1,4 @@
+.auth-details {
+  display: grid;
+  grid-row-gap: 2.5rem;
+  padding: 1rem 1.5rem; }

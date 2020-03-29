@@ -1,0 +1,13 @@
+.update-passphrase-form {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem 0; }
+  .update-passphrase-form .passphrase-requirement {
+    display: flex;
+    align-items: center; }
+    .update-passphrase-form .passphrase-requirement img {
+      position: absolute; }
+    .update-passphrase-form .passphrase-requirement p {
+      display: inline;
+      padding-left: 1.25rem;
+      margin: .5rem; }

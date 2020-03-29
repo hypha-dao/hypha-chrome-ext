@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+@media (min-width: 800px) {
+  html, body {
+    font-size: 20px;
+    line-height: 32px; } }
+
+h1 {
+  margin: 0;
+  line-height: 2rem;
+  font-size: 2rem;
+  color: #1A3270; }
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #1A3270; }
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #1A3270; }
+
+p {
+  margin: 0;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #607C9F; }
+
+hr {
+  margin: 2rem 0;
+  border-top: 1px solid #F0F2F8;
+  opacity: .75; }
+
+img {
+  max-width: 350px; }
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: .5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+  background: #1A3270;
+  color: #FFFFFF;
+  overflow: hidden;
+  transition: all .25s ease-in-out; }
+  button:hover {
+    background: #354F93; }
+  button.secondary {
+    background: #FFFFFF;
+    color: #607C9F; }
+    button.secondary:hover {
+      border: 2px solid #F0F2F8;
+      background: #FFFFFF;
+      color: #1A3270; }
+  button.bordered {
+    border: 2px solid #F0F2F8; }
+    button.bordered:hover {
+      border: 2px solid #C1C5D1;
+      background: #FFFFFF;
+      color: #1A3270; }
+  button:disabled {
+    background: #D5D8E2;
+    color: #9C9FB3; }
+    button:disabled:hover {
+      cursor: not-allowed; }
+  button:active, button:focus {
+    outline: none; }
+  button .button-text {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  button img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 .75rem 0 0; }
+
+input {
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1A3270;
+  line-height: 2.75rem;
+  width: calc(100% - 2rem);
+  padding-left: 0.5rem; }
+  input:focus {
+    outline: 0; }
+  input:disabled {
+    color: #9C9FB3; }
+  input:-webkit-autofill {
+    box-shadow: 0 0 0 30px white inset;
+    -webkit-box-shadow: 0 0 0 30px white inset; }
+  input::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #607C9F;
+    letter-spacing: 0; }

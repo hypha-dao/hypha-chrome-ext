@@ -1,0 +1,19 @@
+.floating-input-container {
+  padding-bottom: 2rem; }
+  .floating-input-container .floating-input-error-border {
+    border-bottom: 1px solid #FF6363; }
+  .floating-input-container .floating-input-border {
+    border-bottom: 1px solid #C1C5D1; }
+  .floating-input-container .floating-input-error-text {
+    position: absolute;
+    font-size: .8rem;
+    color: #FF6363;
+    letter-spacing: 0;
+    padding-left: .5rem; }
+  .floating-input-container .input-label {
+    color: #607C9F;
+    font-size: .75rem;
+    line-height: .75rem; }
+  .floating-input-container img {
+    width: 1rem;
+    cursor: pointer; }

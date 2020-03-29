@@ -1,0 +1,13 @@
+.transaction-status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+  .transaction-status-container .transaction-status-content {
+    display: grid;
+    grid-gap: 1.5rem;
+    padding: 0 1.5rem;
+    text-align: center; }
+    .transaction-status-container .transaction-status-content img {
+      margin: 0 auto;
+      padding: 1rem; }

@@ -1,0 +1,39 @@
+.accordion-content-toggle {
+  display: none; }
+
+.accordion-header {
+  display: grid;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  justify-content: start;
+  grid-template-areas: "icon    title   title   chevron" "icon    account account chevron" "summary summary summary summary"; }
+  .accordion-header .accordion-header-icon-container {
+    grid-area: icon; }
+    .accordion-header .accordion-header-icon-container .accordion-header-icon {
+      float: left;
+      height: 2rem;
+      margin-right: .5rem;
+      margin-bottom: .4rem;
+      padding-right: .4rem; }
+    .accordion-header .accordion-header-icon-container .checkbox {
+      float: left; }
+  .accordion-header .accordion-header-title {
+    grid-area: title;
+    font-weight: 600; }
+  .accordion-header .accordion-header-account {
+    grid-area: account;
+    font-size: 0.8rem;
+    color: #607C9F; }
+  .accordion-header .accordion-header-summary {
+    grid-area: summary;
+    color: #1A3270;
+    letter-spacing: 0.2px;
+    margin: .25rem 0; }
+  .accordion-header .accordion-chevron {
+    grid-area: chevron;
+    transform: rotate(0deg);
+    transition: transform 100ms;
+    margin-left: 1.5rem; }
+    .accordion-header .accordion-chevron.is-open {
+      transform: rotate(180deg);
+      transition: transform 100ms; }

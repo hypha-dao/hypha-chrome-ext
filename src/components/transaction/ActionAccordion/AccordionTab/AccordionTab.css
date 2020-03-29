@@ -1,0 +1,11 @@
+.accordion-tab {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px #F9FAFB; }
+
+.accordion-content {
+  background: #F9FAFB;
+  border-top: 2px solid #F0F2F8;
+  padding: 1rem 1.5rem;
+  flex: 1;
+  word-wrap: break-word; }

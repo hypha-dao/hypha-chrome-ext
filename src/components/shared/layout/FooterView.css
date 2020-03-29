@@ -1,0 +1,8 @@
+.footer-container {
+  padding: 1.5rem;
+  display: flex; }
+  .footer-container button {
+    flex: 1;
+    margin-left: 1.5rem; }
+    .footer-container button:first-child {
+      margin-left: 0rem; }
